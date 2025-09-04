@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/ssr.ts": { "runtime": "nodejs20.x" }
+  },
+  "routes": [
+    { "src": "/assets/(.*)", "dest": "/assets/$1" },
+    { "src": "/favicon\\.ico", "dest": "/favicon.ico" },
+    { "src": "/(.*)", "dest": "/api/ssr.ts" }
+  ]
+}
