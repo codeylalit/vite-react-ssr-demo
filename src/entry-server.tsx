@@ -12,17 +12,17 @@
 //   return { html };
 // }
 
-import React from "react";
-import App from "./App";
-import { renderToPipeableStream } from "react-dom/server";
+// entry-server.js (or entry-server.ts)
+import { renderToString } from 'react-dom/server';
+import { StaticRouter } from 'react-router-dom/server';
+import App from './App';
 
-// If you use React Router, wrap <App> with a memory router here.
+export async function render(url) {
+  const html = renderToString(
+    <StaticRouter location={url}>
+      <App />
+    </StaticRouter>
+  );
 
-export function renderStream() {
-  // Return a pipe/abort pair the handler can use
-  return renderToPipeableStream(<App />, {
-    onError(err) {
-      console.error("SSR error:", err);
-    },
-  });
+  return { html }; // You must return html key
 }
