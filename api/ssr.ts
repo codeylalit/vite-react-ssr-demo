@@ -27,48 +27,49 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 
+const ABORT_DELAY = 10000; // safety timeout
+
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   try {
-    const distDir  = path.resolve(process.cwd(), "dist");              // client build (index.html)
+    const distDir  = path.resolve(process.cwd(), "dist");       // client build (index.html)
     const ssrEntry = path.resolve(process.cwd(), "dist-ssr", "entry-server.js");
-
-    // 1) read template once per request (or cache it)
     const template = await fs.readFile(path.join(distDir, "index.html"), "utf-8");
     const [head, tail] = template.split("<!--app-html-->");
 
-    // 2) import server bundle (ESM)
-    const { renderStream } = await import(pathToFileURL(ssrEntry).href);
-
-    res.statusCode = 200;
-    res.setHeader("Content-Type", "text/html; charset=utf-8");
-
-    // 3) write head part before stream
-    res.write(head);
+    const { render } = await import(pathToFileURL(ssrEntry).href);
 
     let didError = false;
-    const { pipe, abort } = renderStream();
 
-    // 4) pipe React stream, then close with tail
-    pipe({
-      write: (chunk: any) => res.write(chunk),
-      end: () => {
+    res.setHeader("Content-Type", "text/html; charset=utf-8");
+
+    const { pipe, abort } = render(req.url || "/", {
+      onShellReady() {
+        // Start streaming as soon as the shell is ready
+        res.statusCode = didError ? 500 : 200;
+        res.write(head);
+        // pipe React stream directly into the response
+        pipe(res);
+      },
+      onAllReady() {
+        // Close out the HTML once all suspense boundaries are ready
         res.write(tail);
         res.end();
       },
-      on: () => {}, // minimal Writable shim for pipe()
-    } as any);
-
-    // 5) timeout safety
-    setTimeout(() => {
-      if (!res.writableEnded) {
-        didError = true;
-        abort();
+      onShellError(err) {
+        console.error("onShellError", err);
         res.statusCode = 500;
-        res.end("<!-- SSR aborted -->");
-      }
-    }, 10000);
-  } catch (err) {
-    console.error(err);
+        res.end("An error occurred");
+      },
+      onError(err) {
+        didError = true;
+        console.error("SSR error", err);
+      },
+    });
+
+    // abort if something blocks rendering (e.g., slow data)
+    setTimeout(() => abort(), ABORT_DELAY);
+  } catch (e) {
+    console.error(e);
     res.status(500).send("SSR error");
   }
 }
