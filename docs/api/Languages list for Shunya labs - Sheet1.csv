@@ -1,0 +1,241 @@
+🌏 Asian (non-Indic),,,
+Region,Language,Script,Speakers,Status,Language Code
+Asian (non-Indic),Chinese (Mandarin),Chinese,918M,Available,zh-CN
+Asian (non-Indic),Chinese (Cantonese),Chinese,84M,Available,zh-HK
+Asian (non-Indic),Chinese (Wu),Chinese,81M,Available,wuu
+Asian (non-Indic),Chinese (Min),Chinese,70M,Available,nan
+Asian (non-Indic),Chinese (Hakka),Chinese,48M,Available,hak
+Asian (non-Indic),Chinese (Gan),Chinese,22M,Available,gan
+Asian (non-Indic),Chinese (Xiang),Chinese,38M,Available,hsn
+Asian (non-Indic),Japanese,Japanese,125M,Available,ja
+Asian (non-Indic),Korean,Hangul,82M,Available,ko
+Asian (non-Indic),Vietnamese,Latin,85M,Available,vi
+Asian (non-Indic),Thai,Thai,71M,Available,th
+Asian (non-Indic),Lao,Lao,7M,Available,lo
+Asian (non-Indic),Khmer (Cambodian),Khmer,16M,Available,km
+Asian (non-Indic),Burmese,Myanmar,37M,Available,my
+Asian (non-Indic),Mon,Mon,1.1M,Coming Soon,mnw
+Asian (non-Indic),Shan,Myanmar,5.2M,Coming Soon,shn
+Asian (non-Indic),Bahasa Indonesia,Latin,199M,Available,id
+Asian (non-Indic),Bahasa Melayu,Latin,19M,Available,ms
+Asian (non-Indic),Tagalog,Latin,28M,Available,tl
+Asian (non-Indic),Cebuano,Latin,22M,Coming Soon,ceb
+Asian (non-Indic),Hiligaynon,Latin,9M,Coming Soon,hil
+Asian (non-Indic),Waray,Latin,3.1M,Coming Soon,war
+Asian (non-Indic),Bikol,Latin,2.5M,Coming Soon,bcl
+Asian (non-Indic),Pangasinan,Latin,1.2M,Coming Soon,pag
+Asian (non-Indic),Kapampangan,Latin,2.9M,Coming Soon,pam
+Asian (non-Indic),Ilocano,Latin,9.1M,Coming Soon,ilo
+Asian (non-Indic),Javanese,Latin,69M,Available,jv
+Asian (non-Indic),Sundanese,Latin,42M,Available,su
+Asian (non-Indic),Madurese,Latin,13M,Available,mad
+Asian (non-Indic),Buginese,Lontara,5M,Available,bug
+Asian (non-Indic),Acehnese,Latin,3.5M,Available,ace
+Asian (non-Indic),Tibetan,Tibetan,1.2M,Available,bo
+Asian (non-Indic),Dzongkha,Tibetan,1.7M,Coming Soon,dz
+Asian (non-Indic),Mongolian,Cyrillic,5.7M,Available,mn
+Asian (non-Indic),Hmong,Latin,4.2M,Coming Soon,hmn
+Asian (non-Indic),Mien,Latin,2.7M,Coming Soon,ium
+Asian (non-Indic),Tok Pisin,Latin,5.4M,Coming Soon,tpi
+Asian (non-Indic),Sinhala,Sinhala,17M,Available,si
+Asian (non-Indic),Fijian,Latin,1.4M,Coming Soon,fj
+Asian (non-Indic),Tetum,Latin,1.2M,Coming Soon,tet
+Asian (non-Indic),Maori,Latin,0.15M,Available,mi
+Asian (non-Indic),Hawaiian,Latin,0.024M,Available,haw
+🇮🇳 Indic,,,
+Region,Language,Script,Speakers,Status,Language Code
+Indic,Hindi,Devanagari,600M,Available,hi
+Indic,Bengali (India),Bengali,98M,Available,bn-IN
+Indic,Bengali (Bangladesh),Bengali,165M,Available,bn-BD
+Indic,Urdu,Arabic,70M,Available,ur
+Indic,Punjabi,Gurmukhi,113M,Available,pa
+Indic,Marathi,Devanagari,83M,Available,mr
+Indic,Gujarati,Gujarati,56M,Available,gu
+Indic,Tamil,Tamil,75M,Available,ta
+Indic,Telugu,Telugu,82M,Available,te
+Indic,Kannada,Kannada,44M,Available,kn
+Indic,Malayalam,Malayalam,35M,Available,ml
+Indic,Odia,Odia,38M,Coming Soon,or
+Indic,Assamese,Bengali,15M,Available,as
+Indic,Maithili,Devanagari,34M,Available,mai
+Indic,Sindhi,Arabic,25M,Available,sd
+Indic,Konkani,Devanagari,2.3M,Available,kok
+Indic,Kashmiri,Devanagari,7M,Available,ks
+Indic,Santali,Devanagari,7.6M,Available,sat
+Indic,Dogri,Devanagari,2.3M,Available,doi
+Indic,Bodo,Devanagari,1.4M,Available,brx
+Indic,Manipuri,Bengali,1.8M,Coming Soon,mni
+Indic,Nepali,Devanagari,16M,Available,ne
+Indic,Awadhi,Devanagari,38M,Available,awa
+Indic,Bhojpuri,Devanagari,52M,Available,bho
+Indic,Chhattisgarhi,Devanagari,18M,Available,hne
+Indic,Garo,Latin,1.2M,Available,grt
+Indic,Gondi,Devanagari,3M,Available,gon
+Indic,Haryanvi,Devanagari,10M,Available,bgc
+Indic,Ho,Latin,1.1M,Available,hoc
+Indic,Khasi,Latin,1.4M,Available,kha
+Indic,Khond,Devanagari,1.8M,Available,kxv
+Indic,Magahi,Devanagari,21M,Available,mag
+Indic,Marwari,Devanagari,22M,Available,mwr
+Indic,Mizo,Latin,1.1M,Available,lus
+Indic,Mundari,Devanagari,1.2M,Available,unr
+Indic,Rajasthani,Devanagari,26M,Available,raj
+Indic,Tulu,Kannada,2M,Available,tcy
+Indic,Bagheli,Devanagari,8M,Available,bfy
+Indic,Malvi,Gurmukhi,5.2M,Available,mup
+Indic,Sanskrit,Devanagari,0.025M,Available,sa
+🌎 North American,,,
+Region,Language,Script,Speakers,Status,Language Code
+North American,English (US),Latin,230M,Available,en-US
+North American,English (Canada),Latin,20M,Available,en-CA
+North American,Spanish (Mexico),Latin,132M,Available,es-MX
+North American,French (Canada),Latin,7.2M,Available,fr-CA
+North American,Haitian Creole,Latin,12M,Available,ht
+North American,Jamaican Patois,Latin,3.2M,Coming Soon,jam
+North American,Nahuatl,Latin,1.7M,Coming Soon,nah
+🌎 South American,,,
+Region,Language,Script,Speakers,Status,Language Code
+South American,Spanish (Argentina),Latin,45M,Available,es-AR
+South American,Spanish (Colombia),Latin,51M,Available,es-CO
+South American,Spanish (Chile),Latin,18M,Available,es-CL
+South American,Portuguese (Brazil),Latin,215M,Available,pt-BR
+South American,Quechua,Latin,8.9M,Coming Soon,qu
+South American,Guarani,Latin,6.5M,Coming Soon,gn
+South American,Aymara,Latin,2.8M,Coming Soon,ay
+South American,Maya (K'iche'),Latin,2.3M,Coming Soon,quc
+South American,Maya (Q'eqchi'),Latin,1.3M,Coming Soon,kek
+🌍 African,,,
+Region,Language,Script,Speakers,Status,Language Code
+African,Arabic (Maghrebi),Arabic,75M,Available,ar-MA
+African,Arabic (Egyptian),Arabic,102M,Available,ar-EG
+African,Arabic (Chadian),Arabic,1.8M,Available,ar-TD
+African,Arabic (Sudanese),Arabic,28M,Available,ar-SD
+African,Hausa,Latin,70M,Available,ha
+African,Yoruba,Latin,45M,Available,yo
+African,Igbo,Latin,27M,Coming Soon,ig
+African,Fulani,Latin,40M,Coming Soon,ff
+African,Somali,Latin,21.8M,Available,so
+African,Oromo,Latin,37M,Coming Soon,om
+African,Amharic,Ethiopic,57M,Available,am
+African,Tigrinya,Ethiopic,7M,Coming Soon,ti
+African,Malagasy,Latin,18M,Available,mg
+African,Berber (Tamazight),Latin,30M,Coming Soon,ber
+African,Swahili,Latin,16M,Available,sw
+African,Lingala,Latin,15M,Available,ln
+African,Shona,Latin,14.2M,Available,sn
+African,Bambara,Latin,14M,Coming Soon,bm
+African,Kirundi,Latin,13M,Coming Soon,rn
+African,Kinyarwanda,Latin,12M,Coming Soon,rw
+African,Zulu,Latin,12M,Coming Soon,zu
+African,Xhosa,Latin,8.2M,Coming Soon,xh
+African,Wolof,Latin,12M,Coming Soon,wo
+African,Twi,Latin,17M,Coming Soon,tw
+African,Afrikaans,Latin,7M,Available,af
+African,Chichewa,Latin,12M,Coming Soon,ny
+African,English (African),Latin,40M+,Available,en-ZA
+African,Akan,Latin,11M,Coming Soon,ak
+African,Ewe,Latin,6.8M,Coming Soon,ee
+African,Ga,Latin,3.2M,Coming Soon,gaa
+African,Mandinka,Latin,2.4M,Coming Soon,mnk
+African,Kikongo,Latin,10M,Coming Soon,kg
+African,Luganda,Latin,5.6M,Coming Soon,lg
+African,Luo,Latin,5.3M,Coming Soon,luo
+African,Kikuyu,Latin,8.1M,Coming Soon,ki
+African,Ndebele,Latin,2.1M,Coming Soon,nd
+African,Sesotho,Latin,5.6M,Coming Soon,st
+African,Setswana,Latin,4.1M,Coming Soon,tn
+African,isiSwati,Latin,2.3M,Coming Soon,ss
+African,Venda,Latin,1.2M,Coming Soon,ve
+African,Tsonga,Latin,4.4M,Coming Soon,ts
+African,Mossi,Latin,7.6M,Coming Soon,mos
+African,Bemba,Latin,4.1M,Coming Soon,bem
+African,Kamba,Latin,4.3M,Coming Soon,kam
+African,Kongo,Latin,5.6M,Coming Soon,kon
+African,Sango,Latin,2M,Coming Soon,sg
+African,Wolaytta,Ethiopic,2M,Coming Soon,wal
+African,Sidamo,Ethiopic,3M,Coming Soon,sid
+🌙 Middle Eastern,,,
+Region,Language,Script,Speakers,Status,Language Code
+Middle Eastern,Arabic (Global),Arabic,422M,Available,ar
+Middle Eastern,Arabic (Gulf),Arabic,36M,Available,ar-AE
+Middle Eastern,Arabic (Levantine),Arabic,38M,Available,ar-LB
+Middle Eastern,Arabic (Iraqi),Arabic,16M,Available,ar-IQ
+Middle Eastern,Hebrew,Hebrew,9M,Available,he
+Middle Eastern,Persian (Farsi),Arabic,62M,Available,fa
+Middle Eastern,Kurdish (Sorani),Arabic,8M,Coming Soon,ckb
+Middle Eastern,Kurdish (Kurmanji),Latin,15M,Coming Soon,kmr
+Middle Eastern,Pashto,Arabic,60M,Available,ps
+Middle Eastern,Balochi,Arabic,8.8M,Coming Soon,bal
+Middle Eastern,Dari,Arabic,25M,Coming Soon,prs
+Middle Eastern,Tajik,Cyrillic,8.4M,Available,tg
+Middle Eastern,Uyghur,Arabic,12M,Coming Soon,ug
+Middle Eastern,Kazakh,Cyrillic,13M,Available,kk
+Middle Eastern,Kyrgyz,Cyrillic,4.4M,Coming Soon,ky
+Middle Eastern,Uzbek,Latin,34M,Available,uz
+Middle Eastern,Turkish,Latin,88M,Available,tr
+Middle Eastern,Turkmen,Latin,3.4M,Available,tk
+Middle Eastern,Azerbaijani,Latin,23M,Available,az
+Middle Eastern,Armenian,Armenian,6.7M,Available,hy
+Middle Eastern,Georgian,Georgian,3.7M,Available,ka
+Middle Eastern,Chechen,Cyrillic,1.8M,Coming Soon,ce
+Middle Eastern,Bashkir,Cyrillic,1.2M,Available,ba
+Middle Eastern,Tatar,Cyrillic,5.2M,Available,tt
+🇪🇺 European,,,
+Region,Language,Script,Speakers,Status,Language Code
+European,English (UK),Latin,60M,Available,en-GB
+European,English (Ireland),Latin,4.2M,Available,en-IE
+European,English (Australia),Latin,17M,Available,en-AU
+European,English (New Zealand),Latin,3.8M,Available,en-NZ
+European,French (France),Latin,67M,Available,fr-FR
+European,French (Belgium),Latin,4.2M,Available,fr-BE
+European,French (Switzerland),Latin,2M,Available,fr-CH
+European,French (Africa),Latin,120M,Available,fr-AF
+European,German,Latin,95M,Available,de
+European,Italian,Latin,65M,Available,it
+European,Spanish (Spain),Latin,47M,Available,es-ES
+European,Portuguese (European),Latin,10M,Available,pt-PT
+European,Portuguese (African),Latin,35M,Available,pt-AF
+European,Russian,Cyrillic,150M,Available,ru
+European,Ukrainian,Cyrillic,40M,Available,uk
+European,Polish,Latin,40M,Available,pl
+European,Dutch,Latin,24M,Available,nl
+European,Swedish,Latin,10M,Available,sv
+European,Danish,Latin,6M,Available,da
+European,Norwegian,Latin,4.5M,Available,no
+European,Finnish,Latin,5.4M,Available,fi
+European,Hungarian,Latin,13M,Available,hu
+European,Czech,Latin,10.7M,Available,cs
+European,Slovak,Latin,5.2M,Available,sk
+European,Slovenian,Latin,2.5M,Available,sl
+European,Croatian,Latin,5M,Available,hr
+European,Serbian,Cyrillic,9M,Available,sr
+European,Bulgarian,Cyrillic,8M,Available,bg
+European,Romanian,Latin,24M,Available,ro
+European,Greek,Greek,13.5M,Available,el
+European,Lithuanian,Latin,3M,Available,lt
+European,Latvian,Latin,1.9M,Available,lv
+European,Estonian,Latin,1.1M,Available,et
+European,Albanian,Latin,7.6M,Available,sq
+European,Macedonian,Cyrillic,2.1M,Available,mk
+European,Belarusian,Cyrillic,5.1M,Available,be
+European,Moldovan,Latin,2.6M,Coming Soon,mo
+European,Catalan,Latin,10M,Available,ca
+European,Basque,Latin,1.2M,Available,eu
+European,Galician,Latin,2.4M,Available,gl
+European,Welsh,Latin,0.9M,Available,cy
+European,Irish,Latin,1.7M,Coming Soon,ga
+European,Occitan,Latin,0.8M,Available,oc
+European,Sardinian,Latin,1.35M,Coming Soon,sc
+European,Low German,Latin,5M,Coming Soon,nds
+European,Bavarian,Latin,14M,Coming Soon,bar
+European,Sicilian,Latin,5M,Coming Soon,scn
+European,Neapolitan,Latin,5.7M,Coming Soon,nap
+European,Icelandic,Latin,0.3M,Available,is
+European,Norwegian Nynorsk,Latin,2M,Available,nn
+European,Breton,Latin,0.21M,Available,br
+European,Yiddish,Hebrew,0.6M,Available,yi
+European,Latin,Latin,0M,Available,la
+European,Luxembourgish,Latin,0.4M,Available,lb
+European,Maltese,Latin,0.5M,Available,mt
+European,Faroese,Latin,0.07M,Available,fo
+European,Bosnian,Latin,2.7M,Available,bs 

@@ -1,0 +1,137 @@
+/* Real-time Speech Page Animations - Performance Optimized */
+
+/* Essential Status Pulse Animations Only */
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.5;
+    box-shadow: 0 0 10px rgba(45, 76, 200, 0.3);
+  }
+  50% {
+    opacity: 1;
+    box-shadow: 0 0 20px rgba(45, 76, 200, 0.6);
+  }
+}
+
+@keyframes recordingPulse {
+  0%, 100% {
+    opacity: 0.8;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
+/* Basic Audio Level Visualization - Simplified */
+@keyframes audioBar {
+  0%, 100% {
+    transform: scaleY(0.3);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+
+/* Essential Utility Animation Classes */
+.animate-pulseGlow {
+  animation: pulseGlow 2s ease-in-out infinite;
+}
+
+.animate-recordingPulse {
+  animation: recordingPulse 1s ease-in-out infinite;
+}
+
+.animate-audioBar {
+  animation: audioBar 0.3s ease-in-out infinite;
+}
+
+/* Responsive Animation Controls */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Custom Scrollbar for Transcript */
+.transcript-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.transcript-scrollbar::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.transcript-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #2d4cc8, #4c7cf0);
+  border-radius: 10px;
+}
+
+.transcript-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #1a1947, #2d4cc8);
+}
+
+/* Basic Slider Styles */
+.slider {
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-track {
+  background: #e5e7eb;
+  height: 4px;
+  border-radius: 2px;
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, #2d4cc8, #4c7cf0);
+  cursor: pointer;
+  border: 2px solid white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.slider::-webkit-slider-thumb:hover {
+  background: linear-gradient(to bottom, #1a1947, #2d4cc8);
+}
+
+.slider::-moz-range-track {
+  background: #e5e7eb;
+  height: 4px;
+  border-radius: 2px;
+  border: none;
+}
+
+.slider::-moz-range-thumb {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, #2d4cc8, #4c7cf0);
+  cursor: pointer;
+  border: 2px solid white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.slider::-moz-range-thumb:hover {
+  background: linear-gradient(to bottom, #1a1947, #2d4cc8);
+}
+
+.slider:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.slider:disabled::-webkit-slider-thumb {
+  cursor: not-allowed;
+}
+
+.slider:disabled::-moz-range-thumb {
+  cursor: not-allowed;
+} 

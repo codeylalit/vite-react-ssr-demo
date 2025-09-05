@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
-
+const LandingPage = React.lazy(() => import('./modules/landing/pages/Index'));
 export default function App() {
   return (
     <div style={{ fontFamily: 'system-ui, Arial, sans-serif', padding: 24 }}>
@@ -11,7 +11,7 @@ export default function App() {
         <Link to="/about">About</Link>
       </nav>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<LandingPage />} />
         <Route path="/about" element={<About />} />
         <Route path="*" element={<div>Not Found</div>} />
       </Routes>

@@ -1,0 +1,200 @@
+{
+  "hero": {
+    "title": "Zero Voice Infinity",
+    "subtitle": "La Plataforma de IA de Voz Definitiva",
+    "description": "Transforma cualquier texto en voz natural y humana con nuestra tecnología de síntesis vocal de vanguardia. Impulsado por modelos de IA avanzados para calidad y versatilidad incomparables.",
+    "getStarted": "Comenzar Gratis",
+    "viewDemo": "Ver Demo",
+    "watchVideo": "Ver Video",
+    "tryItNow": "Pruébalo Ahora",
+    "learnMore": "Saber Más"
+  },
+  "features": {
+    "title": "Por Qué Elegir Zero Voice Infinity",
+    "subtitle": "Descubre el poder de la síntesis vocal de próxima generación",
+    "voiceQuality": {
+      "title": "Calidad de Voz Excepcional",
+      "description": "Redes neuronales de última generación ofrecen voces increíblemente naturales y expresivas"
+    },
+    "multiLanguage": {
+      "title": "Más de 100 Idiomas y Dialectos",
+      "description": "Soporte para una amplia gama de idiomas y dialectos regionales en todo el mundo"
+    },
+    "realTime": {
+      "title": "Generación en Tiempo Real",
+      "description": "Síntesis vocal ultrarrápida con latencia mínima para aplicaciones en tiempo real"
+    },
+    "customVoices": {
+      "title": "Creación de Voces Personalizadas",
+      "description": "Crea voces únicas de marca con nuestra tecnología avanzada de clonación vocal"
+    },
+    "scalable": {
+      "title": "Escala Empresarial",
+      "description": "Construido para escalar con infraestructura robusta manejando millones de solicitudes"
+    },
+    "integration": {
+      "title": "Integración Fácil",
+      "description": "API REST simple y SDKs completos para integración sin problemas"
+    }
+  },
+  "demo": {
+    "title": "Experimenta el Poder",
+    "subtitle": "Prueba nuestra tecnología de síntesis vocal",
+    "selectLanguage": "Seleccionar Idioma",
+    "selectVoice": "Seleccionar Voz",
+    "enterText": "Ingresa tu texto",
+    "textPlaceholder": "Escribe algo para convertir a voz...",
+    "generateVoice": "Generar Voz",
+    "playAudio": "Reproducir Audio",
+    "downloadAudio": "Descargar Audio",
+    "shareAudio": "Compartir Audio",
+    "processing": "Procesando...",
+    "generationComplete": "Generación de voz completa",
+    "maxCharacters": "Máximo {{count}} caracteres",
+    "sampleTexts": {
+      "welcome": "Bienvenido a Zero Voice Infinity, donde la tecnología de vanguardia se encuentra con la expresión humana.",
+      "technology": "Nuestras redes neuronales avanzadas crean voces tan naturales que olvidarás que son artificiales.",
+      "future": "El futuro de la síntesis vocal está aquí, y es más poderoso que nunca."
+    }
+  },
+  "technology": {
+    "title": "Tecnología de Vanguardia",
+    "subtitle": "Construido sobre los últimos avances en IA y aprendizaje automático",
+    "neuralNetworks": {
+      "title": "Redes Neuronales Avanzadas",
+      "description": "Modelos de aprendizaje profundo propietarios entrenados en vastos conjuntos de datos para calidad vocal superior"
+    },
+    "cloudInfrastructure": {
+      "title": "Infraestructura Nativa en la Nube",
+      "description": "Infraestructura distribuida globalmente asegurando baja latencia y alta disponibilidad"
+    },
+    "aiModels": {
+      "title": "Aprendizaje Continuo",
+      "description": "Modelos de IA que mejoran continuamente a través del aprendizaje automático y retroalimentación del usuario"
+    },
+    "security": {
+      "title": "Seguridad Empresarial",
+      "description": "Seguridad de grado bancario con cifrado de extremo a extremo y certificaciones de cumplimiento"
+    }
+  },
+  "pricing": {
+    "title": "Precios Simples y Transparentes",
+    "subtitle": "Elige el plan que se adapte a tus necesidades",
+    "monthly": "Mensual",
+    "annually": "Anual",
+    "save": "Ahorra {{percent}}%",
+    "free": {
+      "name": "Gratuito",
+      "price": "$0",
+      "period": "para siempre",
+      "description": "Perfecto para probar nuestra plataforma",
+      "features": [
+        "10,000 caracteres por mes",
+        "5 idiomas",
+        "Voces estándar",
+        "Acceso a API",
+        "Soporte de comunidad"
+      ],
+      "button": "Comenzar Gratis"
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "$29",
+      "period": "por mes",
+      "description": "Para profesionales y empresas en crecimiento",
+      "features": [
+        "500,000 caracteres por mes",
+        "Más de 50 idiomas",
+        "Voces premium",
+        "Creación de voces personalizadas",
+        "Soporte prioritario",
+        "Panel de análisis"
+      ],
+      "button": "Comenzar Plan Pro",
+      "popular": "Más Popular"
+    },
+    "enterprise": {
+      "name": "Empresarial",
+      "price": "Personalizado",
+      "period": "contáctanos",
+      "description": "Para grandes organizaciones con necesidades personalizadas",
+      "features": [
+        "Caracteres ilimitados",
+        "Todos los idiomas",
+        "Entrenamiento de voz personalizado",
+        "Infraestructura dedicada",
+        "Soporte telefónico 24/7",
+        "Garantía de SLA"
+      ],
+      "button": "Contactar Ventas"
+    }
+  },
+  "testimonials": {
+    "title": "Confiado por Miles",
+    "subtitle": "Mira lo que dicen nuestros clientes",
+    "customer1": {
+      "quote": "Zero Voice Infinity ha transformado cómo creamos contenido de audio. La calidad es increíble y la API es muy fácil de usar.",
+      "name": "Sarah Johnson",
+      "role": "Gerente de Producto",
+      "company": "TechCorp"
+    },
+    "customer2": {
+      "quote": "El soporte multiidioma es excelente. Hemos podido expandir nuestro alcance global significativamente.",
+      "name": "Marco Rodriguez",
+      "role": "CTO",
+      "company": "GlobalApps"
+    },
+    "customer3": {
+      "quote": "Las capacidades de creación de voz personalizada son revolucionarias para nuestra marca. Nuestro asistente de IA ahora tiene una voz única.",
+      "name": "Emily Chen",
+      "role": "Jefe de Innovación",
+      "company": "BrandCo"
+    }
+  },
+  "cta": {
+    "title": "¿Listo para Comenzar?",
+    "subtitle": "Únete a miles de desarrolladores y empresas usando Zero Voice Infinity",
+    "getStarted": "Comenzar Gratis",
+    "contactSales": "Contactar Ventas",
+    "noCredit": "No se requiere tarjeta de crédito"
+  },
+  "footer": {
+    "description": "Zero Voice Infinity - El futuro de la tecnología de síntesis vocal",
+    "product": {
+      "title": "Producto",
+      "features": "Características",
+      "pricing": "Precios",
+      "demo": "Demo",
+      "docs": "Documentación"
+    },
+    "company": {
+      "title": "Empresa",
+      "about": "Acerca de Nosotros",
+      "careers": "Carreras",
+      "blog": "Blog",
+      "news": "Noticias"
+    },
+    "support": {
+      "title": "Soporte",
+      "help": "Centro de Ayuda",
+      "contact": "Contáctanos",
+      "status": "Estado",
+      "community": "Comunidad"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio",
+      "cookies": "Política de Cookies",
+      "gdpr": "GDPR"
+    },
+    "social": {
+      "title": "Síguenos",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "youtube": "YouTube"
+    },
+    "copyright": "© {{year}} Zero Voice Infinity. Todos los derechos reservados."
+  }
+} 
